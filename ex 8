@@ -1,0 +1,21 @@
+#am postat mai tirziu ca am fost la chisinau la medic cer scuze, am terminat programul inca la lectie dar nam reusit sal postez.
+a="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z "
+a1="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z "
+a2="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z "
+a3="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z "
+#punctu a
+for i in a:
+    x=chr(ord(i)+1)
+    a1+=x
+    b=a1.replace('!','')
+    sirul=b.replace('[','A')
+print("sirul1:", sirul)
+#punctu b
+for i in a:
+    c=a2.replace('Z','A')
+print("sirul2:", c)
+#punctu c
+for i in a:
+    d=a3.replace(' ','-')
+    b=d.replace('[','A')
+print("sirul3:",b)
