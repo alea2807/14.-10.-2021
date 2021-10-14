@@ -1,0 +1,6 @@
+print("Ce nume și prenume ai?")
+nume=input()
+print("Ce iti doresti sa devii in viior?")
+profesia=input()
+print("Te numesti", nume)
+print("Doresti sa devii", profesia)
